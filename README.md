@@ -58,6 +58,8 @@
 - [x] Variables
 - [x] Nesting
 - [x] Mixins
+  - @mixin m($arg) -> @include m($param), @if @else, @extend (%var), @content(for code reuse)
+  - bourbon -> mixin library, animate.scss -> animating scss
 - [x] Extend
 - [x] Responsive Mixins
 
